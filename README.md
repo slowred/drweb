@@ -5,7 +5,7 @@ RU:
 ENG:
 It is necessary to implement a container class that implements the idictionary interface and is able to throw an exception that implements the not_found_exception interface.
 It is allowed to use STL during development. In addition, the internal implementation is not limited by anything.
-
+```
 template<class Key, class Value>
 class dictionary
 {
@@ -23,3 +23,4 @@ class not_found_exception : public std::exception
 public:
     virtual const Key& get_key() const noexcept = 0;
 };
+```
