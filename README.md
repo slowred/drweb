@@ -1,8 +1,8 @@
-RU:
+**RU:**
 Необходимо реализовать класс контейнера, реализующий интерфейс dictionary и способный выбросить исключение, реализующее интерфейс not_found_exception.
 При разработке допускается использовать STL. Кроме этого, внутренняя реализация ничем не ограничена.
 
-ENG:
+**ENG:**
 It is necessary to implement a container class that implements the idictionary interface and is able to throw an exception that implements the not_found_exception interface.
 It is allowed to use STL during development. In addition, the internal implementation is not limited by anything.
 ```
